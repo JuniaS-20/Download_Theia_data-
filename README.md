@@ -6,12 +6,12 @@ This peace of code allows to launch at once a command that automatically downloa
 To make it work, we  need to adapt the Tiles tuple which contains the tiles we need in the tuple, the init_date and end_date variables which provide the start and end date of the download respectively, as well as dir_out which is the directory where the downloaded data will be stored. 
 
 Example : to download the Sentinel 2 images of 4 tiles covering the Dordogne department in France, for the year 2018
-Tiles = (‘T30TYQ’,’T30TYR’,’T31TCL’,’T31TCK’)
-init_date = ‘2018-01-01’
-end_date = ‘2018-12-31’
-dir_out = ‘F:/Sentinel2/Dordogne/Images_2018’
+Tiles = ('T30TYQ','T30TYR','T31TCL','T31TCK')
+init_date = '2018-01-01'
+end_date = '2018-12-31'
+dir_out = 'F:/Sentinel2/Dordogne/Images_2018'
 
-as we wish to acquire the synthetic images, we will have to specify it in the Download_Theia_data function, by writing '-c SENTINEL2 - level LEVEL3A' . To know more about other parameters like the cloud rate read the README on Olivier Hagolle's github, link given above.
+as we wish to acquire the synthetic images, we will have to specify it in the Download_Theia_data function, by writing '-c SENTINEL2 --level LEVEL3A' . To know more about other parameters like the cloud rate read the README on Olivier Hagolle's github, link given above.
 
 NB: for this code to work you must:
 * Have a THEIA LAND account
