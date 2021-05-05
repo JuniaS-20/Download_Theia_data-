@@ -11,4 +11,4 @@ dir_out = 'F:/Sentinel2/Dordogne/2017-2018' #F:\Dordogne
 for tuile in tiles:
     Download_Tiles(tuile,init_date,end_date, dir_out)
 
-print('*********************************************** OK Jazz *******************************************************')
+print(' OK Jazz '.center(80, '*'))
