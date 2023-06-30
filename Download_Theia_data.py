@@ -43,5 +43,6 @@ for tuile in tiles:
 #  ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ====  
 
 
+print("By Junior-Muyumba : muyumbaj2@gmail.com")
 print("OK JAZZ".center(80,"♠"))
 
