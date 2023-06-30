@@ -43,5 +43,5 @@ for tuile in tiles:
 #  ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ==== ====  
 
 
-print(' OK Jazz '.center(80, '*'))
+print("OK JAZZ".center(80,"♠"))
 
